@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: url(https://imagenes.muyinteresante.com/files/image_414_276/uploads/2023/08/01/64c927ca910e0.jpeg);
+    background-size: cover;
+}
+a{
+    color: rgb(255, 0, 0);
+    text-decoration: 0;
+}
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+.menu{
+    text-align: center;
+    height: 20px;
+    line-height: 10px;
+    color:blue
+}
+img{
+    height: 100px;
+    width: 150px;
+}
+.ejercicio1{
+    text-align: center;
+}
+#rsultado{
+    width: 250px;
+    height: 50px;
+}
+.nombre{
+    margin-top: 110px;
+    font-size: 16px;
+    
+}
+.carrera{
+    position: center;
+    height: 100px;
+    right: 10px;
+    bottom: 260px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.ejercicio2{
+    text-align: center;
+    
+}
+.ejercicio3{
+    text-align: center;
+}
+.ejercicio4{
+    text-align: center;
+}
+.ejercicio5{
+    text-align: center;
+}
+.about-us {
+    background-color: #0dc225; 
+    color: #dd250d; 
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    flex: 0 0 auto;
+    list-style-type: none;
+}
+
+footer {
+    margin-top: auto;
+}
+ul{
+    list-style-type: none;
+}
+.nosotros{
+    color: red;
+}
+#resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 70%;
+    margin: 0 auto;
+    color:blue;
+    background-color: rgb(189, 219, 17);
+    border-radius: 1px;
+    padding: 20px;
+    font-size: 16px;
+}
+.ejercicio6{
+    text-align: center;
+}
+.ejercicio7{
+    text-align: center;
+}
+.ejercicio8{
+    text-align: center;
+}
+.ejercicio9{
+    text-align: center;
+}
+.ejercicio10{
+    text-align: center;
+}
+.ejercicio11{
+    text-align: center;
+}
+.ejercicio12{
+    text-align: center;
+}
+.ejercicio13{
+    text-align: center;
+}
+.ejercicio14{
+    text-align: center;
+}
+.ejercicio15{
+    text-align: center;
+}
+.ejercicio16{
+    text-align: center;
+}
+.ejercicio17{
+    text-align: center;
+}
+.ejercicio18{
+    text-align: center;
+}
+.ejercicio19{
+    text-align: center;
+}
+.ejercicio20{
+    text-align: center;
+}
+.ejercicio21{
+    text-align: center;
+}
+.ejercicio22{
+    text-align: center;
+}
+.ejercicio23{
+    text-align: center;
+}
+.ejercicio24{
+    text-align: center;
+}
+.ejercicio25{
+    text-align: center;
+}
+.ejercicio26{
+    text-align: center;
+}
+.ejercicio27{
+    text-align: center;
+}
+.ejercicio28{
+    text-align: center;
+}
+.ejercicio29{
+    text-align: center;
+}
+.ejercicio30{
+    text-align: center;
+}

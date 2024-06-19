@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio8</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>8. Presentar cualquier tabla de multiplicar desde un valor inicial a un valor final.</h2>
+    </header>
+    <div class="ejercicio8">
+        <form action="../index.html">
+            <div>
+                <label for="numero">Ingrese un numero para multiplicar:</label>
+                <input id="n" type="number" placeholder="numero">
+              </div>
+              <div>
+                <label for="inicio">Ingrese su valor inicial:</label>
+                <input id="i" type="number" placeholder="inicial">
+              </div>
+              <div>
+                <label for="final">Ingrese su valor final:</label>
+                <input id="f" type="number" placeholder="final">
+              </div>
+            <div>
+                <button type="button" class="boton" onclick="multiplicar()">Aceptar</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado" >
+            
+        </div>
+    </div>
+    <script src="../js/ejercicio8.js"></script>
+</body>
+</html>

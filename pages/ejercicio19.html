@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio19</title>
+    <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <h2>19. Elementos mayores que un valor dado</h2>
+    </header>
+    <div class="ejercicio19">
+        <form action="../index.html">
+            <div>
+                <label for="numeros">Ingrese 8 números (separados por comas):</label>
+                <input id="numeros" type="text" placeholder="Ej. 1, 2, 3, 4, 5, 6, 7, 8">
+            </div>
+            <div>
+                <label for="valor">Ingrese un valor específico:</label>
+                <input id="valor" type="number" placeholder="Valor">
+            </div>
+            <div>
+                <button type="button" class="boton" onclick="filtrarMayores()">Mostrar mayores que el valor</button>
+                <button type="submit" class="boton">Resetear</button>
+            </div>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <script src="../js/ejercicio19.js"></script>
+</body>
+</html>
